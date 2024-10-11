@@ -1,0 +1,110 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinha logo, campo de busca e botão */
+    margin-bottom: 20px;
+}
+
+.cartola-logo {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção */
+    margin-left: 50px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Faz o container de busca ocupar o espaço restante */
+    margin: 0 20px; /* Espaçamento entre a logo e o campo de busca */
+}
+
+.search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px; /* O campo de busca ocupa todo o espaço disponível */
+}
+
+.search-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: orange; /* Cor laranja para o botão */
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: darkorange; /* Cor ao passar o mouse */
+}
+
+.time-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.time-item img {
+    margin-right: 10px; /* Espaço entre o escudo e o nome */
+    width: 50px; /* Tamanho do escudo */
+    height: auto; /* Mantém a proporção */
+}
+
+.times-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.times-list {
+  display: flex;
+  flex-direction: column; /* Alinha os times verticalmente */
+  align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.time-card {
+  display: flex; /* Flex para alinhar o escudo e as informações do time */
+  align-items: center; /* Alinha os itens verticalmente */
+  border-bottom: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 1000px; /* Ajuste a largura conforme necessário */
+}
+
+.time-logo {
+  width: 60px; /* Tamanho do escudo */
+  height: auto; /* Mantém a proporção do escudo */
+  margin-right: 10px; /* Espaçamento entre o escudo e as informações */
+}
+
+.time-info {
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+h3 {
+    color: black;
+}
